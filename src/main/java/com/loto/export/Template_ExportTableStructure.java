@@ -59,7 +59,7 @@ public class Template_ExportTableStructure {
                 // 生成模板实现
                 .produceType(EngineTemplateType.freemarker)
                 // 自定义文件名称
-                .fileName("数据库表结构_" + dataBaseName + "（" + currentTime + "）").build();
+                .fileName("数据库表结构_" + dataBaseName + "（" + currentTime + "导出）").build();
 
         // 忽略表
         ArrayList<String> ignoreTableName = new ArrayList<>();
